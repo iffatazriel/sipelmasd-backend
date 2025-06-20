@@ -1,0 +1,16 @@
+# Dependencies
+# Folder ini berisi ribuan file dan bisa di-install ulang dengan 'npm install'
+/node_modules
+
+# Secret Files & Environment Variables
+# JANGAN PERNAH meng-upload file-file ini ke GitHub
+.env
+serviceAccountKey.json
+
+# Log files
+npm-debug.log
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
